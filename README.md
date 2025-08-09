@@ -2,6 +2,14 @@
 
 An interactive Snake and Ladder game with both Java backend implementation and a beautiful web frontend for an engaging user experience.
 
+## 🚀 **Play Now!**
+
+### 🎮 **[▶️ PLAY LIVE GAME](http://virabhadrakhobare.me/snake-ladder-game/)**
+
+Experience the game instantly in your browser! No downloads required.
+
+---
+
 ## 🎮 Features
 
 ### Web Frontend
@@ -22,10 +30,14 @@ An interactive Snake and Ladder game with both Java backend implementation and a
 ## 🚀 Getting Started
 
 ### Playing the Web Version
-1. Open `index.html` in any modern web browser
-2. Click "Roll Dice" or press Space to start playing
-3. Players take turns rolling the dice
-4. First player to reach cell 100 wins!
+**🌐 Online:** [**Play directly in your browser**](http://virabhadrakhobare.me/snake-ladder-game/) - No setup required!
+
+**💻 Local:** 
+1. Clone this repository
+2. Open `index.html` in any modern web browser
+3. Click "Roll Dice" or press Space to start playing
+4. Players take turns rolling the dice
+5. First player to reach cell 100 wins!
 
 ### Running the Java Version
 ```bash
@@ -156,6 +168,17 @@ Feel free to contribute to this project by:
 ## 📄 License
 
 This project is open source and available under the MIT License.
+
+---
+
+## 🎯 **Quick Access**
+
+### 🎮 **[🚀 PLAY THE GAME NOW!](http://virabhadrakhobare.me/snake-ladder-game/)**
+
+**Direct Links:**
+- 🌐 **Live Game**: http://virabhadrakhobare.me/snake-ladder-game/
+- 📂 **GitHub Repository**: https://github.com/VirabhadraKhobare/snake-ladder-game
+- 📖 **Documentation**: This README file
 
 ---
 

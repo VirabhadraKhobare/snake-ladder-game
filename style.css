@@ -34,6 +34,47 @@ body {
 .game-header p {
     font-size: 1.2rem;
     opacity: 0.9;
+    margin-bottom: 20px;
+}
+
+/* Game Links */
+.game-links {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.live-link, .github-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    transition: all 0.3s ease;
+    font-weight: 500;
+    backdrop-filter: blur(10px);
+}
+
+.live-link:hover, .github-link:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.6);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
+}
+
+.live-link {
+    background: rgba(76, 175, 80, 0.3);
+    border-color: rgba(76, 175, 80, 0.5);
+}
+
+.live-link:hover {
+    background: rgba(76, 175, 80, 0.5);
+    border-color: rgba(76, 175, 80, 0.8);
 }
 
 /* Game Area Layout */
