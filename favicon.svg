@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Background -->
+  <rect width="64" height="64" fill="#667eea" rx="8"/>
+  
+  <!-- Game board pattern -->
+  <rect x="8" y="8" width="48" height="48" fill="#f8f9fa" rx="4"/>
+  
+  <!-- Grid lines -->
+  <line x1="14" y1="8" x2="14" y2="56" stroke="#ddd" stroke-width="0.5"/>
+  <line x1="20" y1="8" x2="20" y2="56" stroke="#ddd" stroke-width="0.5"/>
+  <line x1="26" y1="8" x2="26" y2="56" stroke="#ddd" stroke-width="0.5"/>
+  <line x1="32" y1="8" x2="32" y2="56" stroke="#ddd" stroke-width="0.5"/>
+  <line x1="38" y1="8" x2="38" y2="56" stroke="#ddd" stroke-width="0.5"/>
+  <line x1="44" y1="8" x2="44" y2="56" stroke="#ddd" stroke-width="0.5"/>
+  <line x1="50" y1="8" x2="50" y2="56" stroke="#ddd" stroke-width="0.5"/>
+  
+  <line x1="8" y1="14" x2="56" y2="14" stroke="#ddd" stroke-width="0.5"/>
+  <line x1="8" y1="20" x2="56" y2="20" stroke="#ddd" stroke-width="0.5"/>
+  <line x1="8" y1="26" x2="56" y2="26" stroke="#ddd" stroke-width="0.5"/>
+  <line x1="8" y1="32" x2="56" y2="32" stroke="#ddd" stroke-width="0.5"/>
+  <line x1="8" y1="38" x2="56" y2="38" stroke="#ddd" stroke-width="0.5"/>
+  <line x1="8" y1="44" x2="56" y2="44" stroke="#ddd" stroke-width="0.5"/>
+  <line x1="8" y1="50" x2="56" y2="50" stroke="#ddd" stroke-width="0.5"/>
+  
+  <!-- Snake -->
+  <path d="M46 14 Q50 18 46 22 Q42 26 46 30" stroke="#e74c3c" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <circle cx="46" cy="14" r="2" fill="#c0392b"/>
+  
+  <!-- Ladder -->
+  <rect x="16" y="38" width="2" height="12" fill="#27ae60"/>
+  <rect x="22" y="38" width="2" height="12" fill="#27ae60"/>
+  <rect x="16" y="40" width="8" height="1" fill="#27ae60"/>
+  <rect x="16" y="44" width="8" height="1" fill="#27ae60"/>
+  <rect x="16" y="48" width="8" height="1" fill="#27ae60"/>
+  
+  <!-- Dice -->
+  <rect x="28" y="28" width="8" height="8" fill="white" stroke="#333" stroke-width="1" rx="1"/>
+  <circle cx="30" cy="30" r="0.8" fill="#333"/>
+  <circle cx="34" cy="34" r="0.8" fill="#333"/>
+  
+  <!-- Player tokens -->
+  <circle cx="11" cy="53" r="2.5" fill="#ff6b6b" stroke="white" stroke-width="1"/>
+  <circle cx="17" cy="47" r="2.5" fill="#4ecdc4" stroke="white" stroke-width="1"/>
+</svg>
